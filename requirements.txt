@@ -1,0 +1,14 @@
+# RF-DETR with training + ONNX export support
+rfdetr[train,onnx]>=1.6.3
+
+# ONNX quantization
+onnxruntime>=1.18.0
+onnxconverter-common>=1.13.0
+
+# Image I/O + visualization
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.65.0

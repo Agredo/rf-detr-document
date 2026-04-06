@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Modellgewichte
+*.pth
+*.pt
+*.onnx
+
+# Datensatz (Symlinks & aufbereitete Daten)
+data/
+
+# Runs: nur Params/Logs behalten, keine Modelle
+runs/**/*.pth
+runs/**/*.pt
+runs/**/*.onnx
+runs/**/checkpoint_*.pth
+runs/**/latest.ckpt
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
